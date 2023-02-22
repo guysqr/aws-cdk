@@ -15,5 +15,6 @@ class %name.PascalCased%Stack(Stack):
         # example resource
         # queue = sqs.Queue(
         #     self, "%name.PascalCased%Queue",
+        #     encryption=sqs.QueueEncryption.KMS_MANAGED,
         #     visibility_timeout=Duration.seconds(300),
         # )
